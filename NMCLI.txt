@@ -1,1 +1,21 @@
+Step1 : yum install NetworkManager
 
+Step2: systemctl start NetworkManager
+
+Step3: systemctl enable NetworkManager
+To make sure it is up 24/7
+
+
+Step4 : nmcli connection show --active
+
+
+Step 5: nmcli device status
+
+
+nmcli connection add type ethernet ifname eth0
+
+nmcli connection show 
+
+nmcli connection up ethernet-eth0
+
+nmcli connection show --active
