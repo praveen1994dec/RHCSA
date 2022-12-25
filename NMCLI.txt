@@ -19,3 +19,11 @@ nmcli connection show
 nmcli connection up ethernet-eth0
 
 nmcli connection show --active
+
+
+nmcli connection modify ethernet-eth0 ipv4.address 172.31.16.0/20
+
+
+nmcli connection modify ethernet-eth0 ipv4.method manual
+
+
