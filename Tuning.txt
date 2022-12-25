@@ -1,0 +1,8 @@
+yum install tuned
+systemctl enable --now tuned
+yum install tuned-profiles-realtime 
+tuned-adm active  (Verify that a TuneD profile is active and applied)tuned-adm verify
+
+tuned-adm recommend
+
+tuned-adm profile powersave
