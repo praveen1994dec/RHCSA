@@ -13,8 +13,6 @@ enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
 
-Step3:
-yum-config-manager mysql57-community [ Validate the yum repository ] 
 
 Step4:
 yum install mysql
